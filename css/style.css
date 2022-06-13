@@ -48,7 +48,22 @@ section{
     width: 100%;
     color:var(--main-color);
     font-size: 3rem;
+}
+    .btn{
+    display: inline-block;
+    padding:.9rem 1.5rem;
+    border-radius: var(--border-radius);
+    color:var(--main-color);
+    background: none;
+    border:var(--border);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
 
+.btn:hover{
+    border-radius: var(--border-radius-hover);
+    border:var(--border-hover);
 }
 
  
@@ -107,4 +122,73 @@ section{
   float: center;
   width: 50%;
   padding: 5px;
+}
+
+/* media queries  */
+
+@media(max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .heading{
+        font-size: 6rem;
+    }
+
+    .heading span{
+        font-size: 2.3rem;
+    }
+
+
+    .header .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background:#fff;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .header .navbar a{
+        display: block;
+        font-size: 2.2rem;
+        margin:0;
+        padding:1.5rem 2rem;
+    }
+
+    .home{
+        text-align: center;
+    }
+
+    .home .row .content h3{
+        font-size: 4rem;
+    }
+
+
+@media(max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .home .row .image img{
+        height: auto;
+        width: 100%;
+    }
+
 }
