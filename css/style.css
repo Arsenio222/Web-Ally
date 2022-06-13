@@ -10,6 +10,7 @@
 
 html{
     font-size: 62.5%;
+    float: Center;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
@@ -19,13 +20,14 @@ section{
     padding:2rem 9%;
 }
 .header img {
-  float: right;
+  float: center;
   width: 300px;
   height: 300px;
  
 
 }
 .heading{
+    float: Center;
     font-size: 9rem;
     text-transform: uppercase;
     color:transparent;
@@ -39,11 +41,12 @@ section{
 
 
 .heading span{
+    float: Center;
     position: absolute;
     top:50%; left:50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    color:black;
+    color:var(--main-color);
     font-size: 3rem;
 
 }
@@ -101,7 +104,7 @@ section{
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
-  width: 33.33%;
+  float: center;
+  width: 50%;
   padding: 5px;
 }
