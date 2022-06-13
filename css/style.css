@@ -154,6 +154,12 @@ section{
 .home .image-slider img:hover{
     transform: translateY(-2rem);
 }
+.about{
+    min-height: 100vh;
+    padding-top: 12rem;
+    background: url(../image/pp1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
 
 .about .row{
     display: flex;
