@@ -71,7 +71,7 @@ section{
     top:0; left: 1; right: 0;
     display: flex;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    padding:2rem 9%;
+    padding:3rem 1%;
 }
 
 .header .logo{
@@ -95,8 +95,8 @@ section{
 }
 
 .home{
-    min-height: 100vh;
-    padding-top: 12rem;
+    min-height: 50vh;
+    padding-top: 1rem;
     background: url(../image/home-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
@@ -155,8 +155,8 @@ section{
     transform: translateY(-2rem);
 }
 .about{
-    min-height: 100vh;
-    padding-top: 12rem;
+    min-height: 50vh;
+    padding-top: 1rem;
     background: url(../image/pp1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
